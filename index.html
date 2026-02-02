@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SecurePass | Password Analyzer</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="app">
+    <h2>🔐 SecurePass</h2>
+    <p class="tagline">Smart Password Security App</p>
+
+    <input type="password" id="password" placeholder="Create password">
+
+    <div class="circle">
+        <span id="percent">0%</span>
+    </div>
+
+    <p id="status">Start typing your password</p>
+
+    <ul class="rules">
+        <li id="len">❌ Minimum 8 characters</li>
+        <li id="upper">❌ Uppercase letter</li>
+        <li id="lower">❌ Lowercase letter</li>
+        <li id="number">❌ Number</li>
+        <li id="special">❌ Special character</li>
+    </ul>
+</div>
+
+<script src="/static/script.js"></script>
+</body>
+</html>
